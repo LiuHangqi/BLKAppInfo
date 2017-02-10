@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLKAppInfo_Example' do
+  pod 'BLKAppInfo', :path => '../'
+
+  target 'BLKAppInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

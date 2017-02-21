@@ -1,0 +1,32 @@
+{
+  "name": "BLKAppInfo",
+  "version": "0.1.0",
+  "summary": "A short description of BLKAppInfo.",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/liu/BLKAppInfo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liu": "liuhangqi@live.com"
+  },
+  "source": {
+    "git": "~/blkee_dev/BLKAppInfo"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BLKAppInfo/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "SSKeychain": [
+
+    ],
+    "OpenUDID": [
+
+    ]
+  }
+}

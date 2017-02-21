@@ -1,0 +1,6 @@
+framework module BLKAppInfo {
+  umbrella header "BLKAppInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

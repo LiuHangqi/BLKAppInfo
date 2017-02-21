@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BLKAppInfo (0.1.0):
+    - AFNetworking
+    - OpenUDID
+    - SSKeychain
+  - OpenUDID (1.0.0)
+  - SSKeychain (1.4.1)
+
+DEPENDENCIES:
+  - BLKAppInfo (from `../`)
+
+EXTERNAL SOURCES:
+  BLKAppInfo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BLKAppInfo: 3c0bdbceabec6a3a831ef1a19887a87be4257727
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+
+PODFILE CHECKSUM: 627f5b40eddf352f4e05e48fb3993cf7543b191b
+
+COCOAPODS: 1.2.0

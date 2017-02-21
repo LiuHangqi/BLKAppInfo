@@ -1,0 +1,6 @@
+framework module Pods_BLKAppInfo_Example {
+  umbrella header "Pods-BLKAppInfo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
